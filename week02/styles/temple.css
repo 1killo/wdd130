@@ -18,7 +18,7 @@ footer {
 }
 
 main {
-    width: 400px;
+    max-width: 840px;
     margin: 0 auto;
 }
 
@@ -49,10 +49,38 @@ section p {
     margin: 10px;
 }
 
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto
+}
+
 ul {
     margin: 10px 20px;
 }
 
+p {
+    padding: 0;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem auto;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
 footer {
-    font-size: .9;
+    font-size: .9rem;
+    border-top: 1px solid #000;
+    text-align: center;
 }
