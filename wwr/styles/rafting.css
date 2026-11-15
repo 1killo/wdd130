@@ -22,14 +22,25 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    width: 840px auto;
     margin: 0;
 }
 
 h1,
-h2 {
+h2,
+h3 {
     margin: 16px;
     padding: 8px;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+nav a:hover {
+    background-color: var(--accent2-color);
 }
 
 nav,
@@ -51,8 +62,10 @@ article {
 
 header {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--primary-color);
 }
 
 .hero {
@@ -103,4 +116,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    color: white;
 }
